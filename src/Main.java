@@ -11,5 +11,6 @@ public class Main {
                 .ifPresent(System.out::println);
 
         words.forEach(System.out::println);
+        System.out.println(words.size());
     }
 }
